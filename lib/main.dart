@@ -1,4 +1,6 @@
-import 'package:final_exam_650710077/checkname/profile.dart';
+// import 'package:final_exam_650710077/checkname/profile.dart'; // เช็คชื่อ
+import 'package:final_exam_650710077/answer1.dart'; // answer1
+import 'package:final_exam_650710077/answer2.dart'; // answer2
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,13 +13,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const MyProfile(),
+      // home: Answer1(),
+      home: Answer2(),
     );
   }
 }
